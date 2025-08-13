@@ -12,10 +12,11 @@ struct ContentView: View {
         VStack {
             
             // Comments
-            Image(systemName: "globe")
+            Image(systemName: "apple.logo")
+                .foregroundStyle(Color(.red))
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, Apple Developer Academy | UCB")
         }
         .padding()
     }
